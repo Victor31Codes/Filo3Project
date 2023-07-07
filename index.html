@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta name="authors" content="Victor31Codes" />
+    <meta
+      name="description"
+      content="Code from Frontend Mentoring, third design"
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, project, javascript, frontendmentor"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Fylo data 3-Project</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  </head>
+  <body>
+    <main class="container">
+      <picture class="imgDesktop_container">
+        <source srcset="images/bg-mobile.png" media="(max-width:414px)" />
+        <img class="imgDesktop" src="images/bg-desktop.png" alt="Desktop_bg" />
+      </picture>
+      <section class="cards_container">
+        <article class="fylo_card">
+          <picture class="logo">
+            <img src="images/logo.svg" alt="Fylo_logo" />
+          </picture>
+          <div class="icons_container">
+            <picture class="icons">
+              <img
+                id="document_icon"
+                src="images/icon-document.svg"
+                alt="document_icon"
+              />
+            </picture>
+            <picture class="icons">
+              <img
+                id="folder_icon"
+                src="images/icon-folder.svg"
+                alt="folder_icon"
+              />
+            </picture>
+            <picture class="icons">
+              <img
+                id="upload_icon"
+                src="images/icon-upload.svg"
+                alt="upload_icon"
+              />
+            </picture>
+          </div>
+        </article>
+        <article class="storage_card">
+          <p class="text_info">
+            You’ve used <span>815 GB</span> of your storage
+          </p>
+          <div class="additional_info">
+            <h1><span>185 </span> GB Left</h1>
+          </div>
+          <form action="" oninput="val.value = parseInt(range.value)">
+            <input type="range" max="1000" min="0" value="0" id="range" />
+            <br />
+            <output id="change_number" name="val" for="range">0</output>
+          </form>
+        </article>
+      </section>
+    </main>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>
